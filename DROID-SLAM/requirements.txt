@@ -4,6 +4,7 @@ torchvision==0.22.1+cu126
 torchaudio==2.7.1+cu126
 wheel
 tqdm
+matplotlib
 evo
 scipy
 open3d
@@ -12,3 +13,5 @@ tensorboard
 numpy<2.0
 opencv-python<4.10.0
 pyyaml
+heapq
+scikit-learn
