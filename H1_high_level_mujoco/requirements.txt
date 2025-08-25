@@ -1,0 +1,17 @@
+torch
+torchvision
+torchaudio
+mediapipe
+opencv-python
+ultralytics
+mistralai
+openai-whisper
+pyaudio
+pygame
+langdetect
+gtts
+transformers
+easyocr
+segment_anything
+sacremoses
+open3d

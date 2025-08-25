@@ -1,0 +1,73 @@
+target vx=1.0, average vx=0.970
+target vx=0.9, average vx=0.875
+target vx=0.8, average vx=0.783
+target vx=0.7, average vx=0.686
+target vx=0.6, average vx=0.594
+target vx=0.5, average vx=0.499
+target vx=0.4, average vx=0.405
+target vx=0.3, average vx=0.309
+target vx=0.2, average vx=0.219
+target vx=0.1, average vx=0.124
+target vx=-0.1, average vx=-0.067
+target vx=-0.2, average vx=-0.164
+target vx=-0.3, average vx=-0.257
+target vx=-0.4, average vx=-0.356
+target vx=-0.5, average vx=-0.451
+target vx=-0.6, average vx=-0.547
+target vx=-0.7, average vx=-0.641
+target vx=-0.8, average vx=-0.736
+target vx=-0.9, average vx=-0.833
+target vx=-1.0, average vx=-0.924
+
+fit result: target ≈ 1.0541 * average + -0.0257
+
+
+
+target vy=1.0, average vy=0.966
+target vy=0.9, average vy=0.873
+target vy=0.8, average vy=0.781
+target vy=0.7, average vy=0.686
+target vy=0.6, average vy=0.591
+target vy=0.5, average vy=0.496
+target vy=0.4, average vy=0.398
+target vy=0.3, average vy=0.303
+target vy=0.2, average vy=0.205
+target vy=0.1, average vy=0.109
+target vy=-0.1, average vy=-0.089
+target vy=-0.2, average vy=-0.188
+target vy=-0.3, average vy=-0.286
+target vy=-0.4, average vy=-0.383
+target vy=-0.5, average vy=-0.480
+target vy=-0.6, average vy=-0.572
+target vy=-0.7, average vy=-0.670
+target vy=-0.8, average vy=-0.759
+target vy=-0.9, average vy=-0.852
+target vy=-1.0, average vy=-0.943
+
+fit result: target = 1.0382 * average - 0.0097
+
+
+
+target wz=1.0, average wz=2.460
+target wz=0.9, average wz=2.223
+target wz=0.8, average wz=1.978
+target wz=0.7, average wz=1.729
+target wz=0.6, average wz=1.480
+target wz=0.5, average wz=1.246
+target wz=0.4, average wz=1.003
+target wz=0.3, average wz=0.757
+target wz=0.2, average wz=0.521
+target wz=0.1, average wz=0.278
+target wz=-0.1, average wz=-0.191
+target wz=-0.2, average wz=-0.414
+target wz=-0.3, average wz=-0.633
+target wz=-0.4, average wz=-0.838
+target wz=-0.5, average wz=-1.019
+target wz=-0.6, average wz=-1.202
+target wz=-0.7, average wz=-1.389
+target wz=-0.8, average wz=-1.554
+target wz=-0.9, average wz=-1.690
+target wz=-1.0, average wz=-1.820
+
+fit result: target ≈ 0.4524 * average + -0.0662
+Still not accurate

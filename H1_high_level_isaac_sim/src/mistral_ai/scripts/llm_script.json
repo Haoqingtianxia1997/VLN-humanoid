@@ -1,0 +1,9 @@
+{
+  "response": "Sure, looking for the sofa.",
+  "actions": [
+    {
+      "type": "perceive",
+      "target": "sofa"
+    }
+  ]
+}

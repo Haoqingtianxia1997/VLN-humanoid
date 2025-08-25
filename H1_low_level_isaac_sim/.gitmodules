@@ -1,0 +1,6 @@
+[submodule "submodules/isaaclab"]
+	path = submodules/isaaclab
+	url = https://github.com/isaac-sim/IsaacLab.git
+[submodule "submodules/droid_slam"]
+	path = submodules/droid_slam
+	url = https://github.com/Haoqingtianxia1997/droid_slam.git
