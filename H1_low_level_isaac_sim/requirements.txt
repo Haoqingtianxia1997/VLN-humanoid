@@ -1,0 +1,16 @@
+# Core Python packages
+numpy
+torch
+matplotlib
+scipy
+open3d
+
+# Computer Vision and Image Processing
+opencv-python
+pillow
+
+# mpc
+pypxr
+casadi
+acados_template
+

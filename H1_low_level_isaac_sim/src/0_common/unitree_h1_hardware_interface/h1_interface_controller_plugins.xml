@@ -1,0 +1,9 @@
+<library path="unitree_h1_hardware_interface">
+  <class name="unitree_h1_hardware/UnitreeH1HardwareInterface"
+         type="unitree_h1_hardware::UnitreeH1HardwareInterface"
+         base_class_type="hardware_interface::SystemInterface">
+    <description>
+      A ros2_control-based hardware interface for the Unitree H1.
+    </description>
+  </class>
+</library>

@@ -1,0 +1,16 @@
+# foxglove_bridge_params.yaml
+foxglove_bridge:
+  ros__parameters:
+    # Port und andere Parameter wie gewohnt
+    port: 8765
+    address: 0.0.0.0
+    
+    # Hier werden die Fähigkeiten des Servers definiert
+    capabilities:
+      - client_publish
+      - parameters
+      - parameters_subscribe
+      - services
+      - connection_graph
+      # FÜGEN SIE DIESE ZEILE HINZU, UM DEN ASSET-SERVER ZU AKTIVIEREN:
+      - assets

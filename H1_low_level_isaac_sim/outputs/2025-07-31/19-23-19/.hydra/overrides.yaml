@@ -1,0 +1,3 @@
+- env.commands.base_velocity.ranges.lin_vel_x=[-1.0,1.0]
+- env.commands.base_velocity.ranges.lin_vel_y=[-1.0,1.0]
+- env.commands.base_velocity.ranges.ang_vel_z=[-1.0,1.0]

@@ -1,0 +1,49 @@
+wbc:
+  urdf_path:
+    type: string
+    description: "Absolute path to the robot's URDF file."
+    default_value: "/home/argo/programmier_stuff/UNI/ip/src/0_common/h1_description/urdf/h1_sim.urdf"
+
+  joints:
+    type: string_array
+    description: "List of actuated joint names to be controlled."
+    default_value: [
+        "torso_joint",
+        "left_hip_yaw_joint", "left_hip_roll_joint", "left_hip_pitch_joint", "left_knee_joint", "left_ankle_joint",
+        "right_hip_yaw_joint", "right_hip_roll_joint", "right_hip_pitch_joint", "right_knee_joint", "right_ankle_joint",
+        "left_shoulder_pitch_joint", "left_shoulder_roll_joint", "left_shoulder_yaw_joint", "left_elbow_joint",
+        "right_shoulder_pitch_joint", "right_shoulder_roll_joint", "right_shoulder_yaw_joint", "right_elbow_joint"
+    ]
+    
+  contact_frame_names:
+    type: string_array
+    description: "List of frame names in the URDF used for contact."
+    default_value: ["left_ankle_link", "right_ankle_link"]
+
+  update_rate_hz:
+    type: double
+    description: "Update rate of the controller."
+    default_value: 100.0
+
+  weights:
+    com:
+      type: double
+      description: "Weight for the Center of Mass task."
+      default_value: 3.0
+    force:
+      type: double
+      description: "Weight for the contact force tracking task."
+      default_value: 0.001
+    regularization:
+      type: double
+      description: "Regularization weight for joint accelerations."
+      default_value: 0.0001
+    contact:
+      type: double
+      description: "Weight for the contact position."
+      default_value: 100000.0
+  
+  friction_coefficient:
+    type: double
+    description: "Friction coefficient for the friction cone constraints."
+    default_value: 0.7
