@@ -133,5 +133,8 @@ python3 scripts/utils/udp/udp_keyboard_control_wheeled.py
 # in DROID-SLAM folder, change path accordingly
 cd submodules/droid_slam
 
+
+
+
 python3 demo.py --imagedir=$(vln-humanoids-home)/camera_feed/wheeled/rgb --depthdir=$(vln-humanoids-home)/camera_feed/wheeled/depth --calib=calib/wheeled_robot.txt --stride 1 --upsample
 ```
